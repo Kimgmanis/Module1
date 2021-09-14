@@ -24,7 +24,7 @@ public class Animal {
     }
 
     // Returns a string representation of points
-    public String toString() {
+    public String printPosition() {
         return "(" + x + ", " + y + ")";
     }
 
@@ -48,5 +48,9 @@ public class Animal {
     }
     public int getY() {
         return y;
+    }
+
+    public void getInfo() {
+        System.out.println("I am the " + this.getName() + ", I am standing on square " + this.printPosition());
     }
 }
