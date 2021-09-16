@@ -21,6 +21,7 @@ public class Animal {
     // Shifts point by given amount
     public void translate(int dx, int dy){
         setLocation(x + dx, y + dy);
+        System.out.println("The " + this.name + " moved to (" + this.getX() + ", " + this.getY() + ")");;
     }
 
     // Returns a string representation of points
